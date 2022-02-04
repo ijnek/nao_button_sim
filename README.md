@@ -9,8 +9,7 @@ This is useful when you cannot physically press the button on the robot, such as
 * working with simulated robots
 * working with a real robot in a location far away
 
-The package simply converts key presses to [nao_sensor_msgs/msg/Buttons]
-(https://nao-interfaces-docs.readthedocs.io/en/latest/sensor-msgs.html#accelerometer) and publishes
+The package simply converts key presses to [nao_sensor_msgs/msg/Buttons](https://nao-interfaces-docs.readthedocs.io/en/latest/sensor-msgs.html#buttons) and publishes
 it on `/sensors/buttons`.
 
 ## Installing 
