@@ -25,6 +25,8 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - uses: actions/checkout@v2
+        with:
+          path: ws/src
       - uses: ijnek/setup-ros@ijnek-fix-pip-install-dir
       - uses: ros-tooling/action-ros-ci@v0.2
         with:
