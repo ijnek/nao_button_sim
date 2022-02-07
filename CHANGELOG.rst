@@ -2,8 +2,8 @@
 Changelog for package nao_button_sim
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.1.1 (2022-02-07)
+------------------
 * Update README.md
 * port everything across from naosoccer_sim
 * Contributors: Kenji Brameld, ijnek
