@@ -1,8 +1,8 @@
 # Nao Button Sim
 
-[![Build and Test (foxy)](../../actions/workflows/build_and_test_foxy.yaml/badge.svg)](../../actions/workflows/build_and_test_foxy.yaml)
-[![Build and Test (galactic)](../../actions/workflows/build_and_test_galactic.yaml/badge.svg)](../../actions/workflows/build_and_test_galactic.yaml)
-[![Build and Test (rolling)](../../actions/workflows/build_and_test_rolling.yaml/badge.svg)](../../actions/workflows/build_and_test_rolling.yaml)
+[![Build and Test (humble)](../../actions/workflows/build_and_test_humble.yaml/badge.svg?branch=rolling)](../../actions/workflows/build_and_test_humble.yaml?query=branch:rolling)
+[![Build and Test (iron)](../../actions/workflows/build_and_test_iron.yaml/badge.svg?branch=rolling)](../../actions/workflows/build_and_test_iron.yaml?query=branch:rolling)
+[![Build and Test (rolling)](../../actions/workflows/build_and_test_rolling.yaml/badge.svg?branch=rolling)](../../actions/workflows/build_and_test_rolling.yaml?query=branch:rolling)
 
 This packages provides a simple way to simulate button presses on the NAO from a command line.
 This is useful when you cannot physically press the button on the robot, such as when:
@@ -12,7 +12,7 @@ This is useful when you cannot physically press the button on the robot, such as
 The package simply converts key presses to [nao_sensor_msgs/msg/Buttons](https://nao-interfaces-docs.readthedocs.io/en/latest/sensor-msgs.html#buttons) and publishes
 it on `/sensors/buttons` at the rate specified by the frequency parameter (default: 50Hz)
 
-## Installing 
+## Installing
 
 In your ROS2 workspace,
 
@@ -30,7 +30,7 @@ In a new terminal, run:
 ros2 run nao_button_sim nao_button_sim
 ```
 
-**If you see your terminal getting spammed**, increase the width of your terminal window, 
+**If you see your terminal getting spammed**, increase the width of your terminal window,
 or zoom out (Ctrl and -) a couple of times, to ensure the terminal window
 is at least 110 characters wide.
 Once the spamming stops, kill the node (Ctrl + C), and rerun it.
@@ -38,7 +38,7 @@ Once the spamming stops, kill the node (Ctrl + C), and rerun it.
 To simulate a button press, click on a key specified in the assigned keys list below:
 
 ```
----------  Assigned Keys  ---------                                 
+---------  Assigned Keys  ---------
 G - Chest button
 C - Left Foot Bumper Left
 V - Left Foot Bumper Right
@@ -60,9 +60,9 @@ in the corresponding column, as shown below:
 Multiple keys can be pressed at the same time.
 
 ## Published Topics
- 
+
 * `/sensors/buttons` ([nao_sensor_msgs/msg/Buttons](https://nao-interfaces-docs.readthedocs.io/en/latest/sensor-msgs.html#buttons))
- 
+
 ## Parameters
 
 * `frequency` (int, default=50)
