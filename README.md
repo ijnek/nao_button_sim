@@ -9,7 +9,7 @@ This is useful when you cannot physically press the button on the robot, such as
 * working with simulated robots
 * working with a real robot in a location far away
 
-The package simply converts key presses to [nao_sensor_msgs/msg/Buttons](https://nao-interfaces-docs.readthedocs.io/en/latest/sensor-msgs.html#buttons) and publishes
+The package simply converts key presses to [nao_lola_sensor_msgs/msg/Buttons](https://nao-interfaces-docs.readthedocs.io/en/latest/sensor-msgs.html#buttons) and publishes
 it on `/sensors/buttons` at the rate specified by the frequency parameter (default: 50Hz)
 
 ## Installing
@@ -61,7 +61,7 @@ Multiple keys can be pressed at the same time.
 
 ## Published Topics
 
-* `/sensors/buttons` ([nao_sensor_msgs/msg/Buttons](https://nao-interfaces-docs.readthedocs.io/en/latest/sensor-msgs.html#buttons))
+* `/sensors/buttons` ([nao_lola_sensor_msgs/msg/Buttons](https://nao-lola.readthedocs.io/en/latest/sensor-msgs.html#buttons))
 
 ## Parameters
 

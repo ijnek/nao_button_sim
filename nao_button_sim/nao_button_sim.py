@@ -14,7 +14,7 @@
 
 import os
 
-from nao_sensor_msgs.msg import Buttons
+from nao_lola_sensor_msgs.msg import Buttons
 
 from pynput import keyboard
 
