@@ -2,8 +2,8 @@
 Changelog for package nao_button_sim
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.0.1 (2024-04-20)
+------------------
 * update iron CI to use iron branch
 * Contributors: ijnek
 
